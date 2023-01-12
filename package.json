@@ -1,5 +1,5 @@
 {
-  "name": "standard-version",
+  "name": "@capgo/standard-version",
   "version": "9.5.0",
   "description": "replacement for `npm version` with automatic CHANGELOG generation",
   "bin": "bin/cli.js",
@@ -16,9 +16,9 @@
       "tmp/**"
     ]
   },
-  "repository": "conventional-changelog/standard-version",
+  "repository": "Cap-go/standard-version",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "keywords": [
     "conventional-changelog",
@@ -30,12 +30,12 @@
     "angular",
     "standard"
   ],
-  "author": "Ben Coe <ben@npmjs.com>",
+  "author": "Martin Donadieu <martindonadieu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/conventional-changelog/standard-version/issues"
+    "url": "https://github.com/Cap-go/standard-version/issues"
   },
-  "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+  "homepage": "https://github.com/Cap-go/standard-version#readme",
   "dependencies": {
     "chalk": "^2.4.2",
     "conventional-changelog": "3.1.25",
