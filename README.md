@@ -1,6 +1,6 @@
 # Standard Version
 
-> **`standard-version` is deprecated**. If you're a GitHub user, I recommend [release-please](https://github.com/googleapis/release-please) as an alternative. I encourage folks to fork this repository and, if a fork gets popular, I will link to it in this README.
+> **`@capgo/standard-version` is a fork with a fix on jsOject function in updater.
 
 A utility for versioning using [semver](https://semver.org/) and CHANGELOG generation powered by [Conventional Commits](https://conventionalcommits.org).
 
