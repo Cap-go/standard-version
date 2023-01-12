@@ -4,9 +4,9 @@
 
 A utility for versioning using [semver](https://semver.org/) and CHANGELOG generation powered by [Conventional Commits](https://conventionalcommits.org).
 
-![ci](https://github.com/conventional-changelog/standard-version/workflows/ci/badge.svg)
-[![NPM version](https://img.shields.io/npm/v/standard-version.svg)](https://www.npmjs.com/package/standard-version)
-[![codecov](https://codecov.io/gh/conventional-changelog/standard-version/branch/master/graph/badge.svg?token=J7zMN7vTTd)](https://codecov.io/gh/conventional-changelog/standard-version)
+![ci](https://github.com/Cap-go/standard-version/workflows/ci/badge.svg)
+[![NPM version](https://img.shields.io/npm/v/standard-version.svg)](https://www.npmjs.com/package/@capgo/standard-version)
+[![codecov](https://codecov.io/gh/Cap-go/standard-version/branch/master/graph/badge.svg?token=J7zMN7vTTd)](https://codecov.io/gh/Cap-go/standard-version)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Community slack](http://devtoolscommunity.herokuapp.com/badge.svg)](http://devtoolscommunity.herokuapp.com)
 
@@ -49,7 +49,7 @@ That said, if you find your self asking [How can I use standard-version for addi
 Install and add to `devDependencies`:
 
 ```
-npm i --save-dev standard-version
+npm i --save-dev @capgo/standard-version
 ```
 
 Add an [`npm run` script](https://docs.npmjs.com/cli/run-script) to your `package.json`:
@@ -71,7 +71,7 @@ This has the benefit of making your repo/package more portable, so that other de
 Install globally (add to your `PATH`):
 
 ```
-npm i -g standard-version
+npm i -g @capgo/standard-version
 ```
 
 Now you can use `standard-version` in place of `npm version`.
@@ -80,7 +80,7 @@ This has the benefit of allowing you to use `standard-version` on any repo/packa
 
 ### Using `npx`
 
-As of `npm@5.2.0`, `npx` is installed alongside `npm`. Using `npx` you can use `standard-version` without having to keep a `package.json` file by running: `npx standard-version`.
+As of `npm@5.2.0`, `npx` is installed alongside `npm`. Using `npx` you can use `standard-version` without having to keep a `package.json` file by running: `npx @capgo/standard-version`.
 
 This method is especially useful when using `standard-version` in non-JavaScript projects.
 
@@ -133,7 +133,7 @@ npm run release -- --first-release
 # global bin
 standard-version --first-release
 # npx
-npx standard-version --first-release
+npx @capgo/standard-version --first-release
 ```
 
 This will tag a release **without bumping the version `bumpFiles`[1]()**.
