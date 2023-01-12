@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.5](https://github.com/Cap-go/standard-version/compare/v1.0.4...v1.0.5) (2023-01-12)
+
+
+### Bug Fixes
+
+* readme ([60b040c](https://github.com/Cap-go/standard-version/commit/60b040cb9eeed1054797d605b62144d8a91860a0))
+
 ## [1.0.4](https://github.com/Cap-go/standard-version/compare/v1.0.3...v1.0.4) (2023-01-12)
 
 
